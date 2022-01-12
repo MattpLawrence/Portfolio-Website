@@ -7,7 +7,24 @@
   padding-left: 20em;
 }
 
-/* XLarge */
+.fab {
+  font-size: 1.5rem;
+}
+.myIcon {
+  background: #4acaa8;
+  border-radius: 100%;
+  color: #ffffff;
+  display: flex;
+  height: 2.5em;
+  left: 0;
+  line-height: 2.5em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 2.5em;
+  align-items: center;
+  justify-content: center;
+}
 
 @media screen and (max-width: 1680px) {
   /* Header */
