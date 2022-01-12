@@ -5,9 +5,8 @@
 
 #wrapper {
   padding-right: 0;
-  padding-left: 20em;
+  padding-left: 23em;
 }
-/* ***********************About me*********************** */
 
 /* ***********************Things I can do****************** */
 .fab {
@@ -29,6 +28,29 @@
   justify-content: center;
 }
 
+/* ***********************A few accomplishments*********************** */
+.imgProject {
+  padding: 0.3em;
+  border: 0.15em grey solid;
+}
+.builtWith {
+  font-weight: 900;
+}
+.builtIcons {
+  color: #4acaa8;
+  padding-left: 0.5em;
+}
+
+/* ***************************contact*************** */
+.contactLI {
+  list-style-type: none;
+}
+.contactIcon {
+  color: rgb(74, 202, 168);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-right: 2em;
+}
 /* ***************************adjust size for screen****************** */
 @media screen and (max-width: 1680px) {
   /* Header */
