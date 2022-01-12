@@ -7,6 +7,18 @@
   padding-right: 0;
   padding-left: 23em;
 }
+.footerIcon {
+  font-size: 1.5rem;
+}
+.contactLI a:hover {
+  text-decoration: none;
+}
+#noUnderline {
+  text-decoration: none;
+}
+#phoneIcon {
+  transition-duration: 1s;
+}
 
 /* ***********************Things I can do****************** */
 .fab {
