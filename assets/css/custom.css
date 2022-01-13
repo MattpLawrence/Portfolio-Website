@@ -70,6 +70,9 @@
   line-height: 2rem;
   padding-right: 2em;
 }
+#four {
+  padding-bottom: 13rem;
+}
 /* ***************************adjust size for screen****************** */
 @media screen and (max-width: 1680px) {
   /* Header */
@@ -162,6 +165,9 @@
   }
   #desktop {
     display: none;
+  }
+  #four {
+    padding-bottom: 0;
   }
 }
 
