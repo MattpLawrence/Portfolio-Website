@@ -10,8 +10,11 @@
 .footerIcon {
   font-size: 1.5rem;
 }
-.contactLI a:hover {
-  text-decoration: none;
+
+.contactLI a {
+  text-decoration: none !important;
+  /* color: grey !important; */
+  border-bottom: none;
 }
 #noUnderline {
   text-decoration: none;
