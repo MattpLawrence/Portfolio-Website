@@ -134,6 +134,9 @@
   });
 })(jQuery);
 
+$("#openResume").on("click", openPDF());
+
 function openPDF() {
+  console.log("clicked");
   window.open("../images/resume.pdf", "_blank");
 }
