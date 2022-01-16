@@ -134,9 +134,9 @@
   });
 })(jQuery);
 
-$("#openResume").on("click", openPDF());
+let btnResume = $("#btnResume");
 
-function openPDF() {
+btnResume.on("click", function () {
   console.log("clicked");
-  window.open("../images/resume.pdf", "_blank");
-}
+  window.open("./images/Matthew_Lawrence_Resume.pdf", "_blank");
+});
