@@ -68,7 +68,9 @@
 }
 
 /* ***********************A few accomplishments*********************** */
-
+.link {
+  color: #4acaa8;
+}
 #mobile {
   display: none;
 }
