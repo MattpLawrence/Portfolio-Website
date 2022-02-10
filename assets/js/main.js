@@ -138,5 +138,5 @@ let btnResume = $("#btnResume");
 
 btnResume.on("click", function () {
   console.log("clicked");
-  window.open("./images/Matthew_Lawrence_Resume.pdf", "_blank");
+  window.open("./images/Matthew_Lawrence_Resume_2-9-2022.pdf", "_blank");
 });
